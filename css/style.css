@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #6943FF;
+    height: 280px;
+    text-align: center;
+}
+
+header > h1 {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    padding: 20px 50px 20px 50px;
+}
+
+input {
+    width: 120px;
+    height: 80px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: none;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+    color: #3D3D3D;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background: #1F2937;
+    height: 400px;
+}
+
+main div {
+    background: #273549;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin: 15px 0 10px 0;
+    width: 500px;
+    height: 100px;
+}
+
+div h1 {
+    color: #CCC1FF;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+div p {
+    text-align: center;
+    color: #FFFFFF;
+}
